@@ -12,7 +12,9 @@ public class main {
     public static int option;
     public static double num1, num2, resultado;
     public static Scanner input = new Scanner(System.in);
-
+    /**
+     * @param args the command line arguments
+     */
 
     public static void main (String[] args) {
 
