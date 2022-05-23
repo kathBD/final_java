@@ -24,7 +24,7 @@ public class main {
     }
 
     public static double capturaNumero(){
-        System.out.println("Bienvenido a la super calculadora");
+        System.out.println("Calculadora TSK");
         System.out.println("Ingrese un número ");
         return input.nextDouble();
     }
@@ -45,15 +45,15 @@ public class main {
 
             case 1:
 
-                System.out.println("Escriba el segundo numero");
+                System.out.println("Ingrese numero");
                 num2 = input.nextDouble();
                 resultado = num1 + num2;
                 num1 = resultado;
-                System.out.println("El resultado es: "+resultado);
+                System.out.println(resultado);
                 break;
             case 2:
 
-                System.out.println("Escriba el segundo numero");
+                System.out.println("Ingrese numero");
                 num2 = input.nextDouble();
                 resultado = num1 - num2;
                 num1 = resultado;
@@ -69,7 +69,7 @@ public class main {
                 break;
             case 4:
 
-                System.out.println("Escriba el segundo numero");
+                System.out.println("Ingrese numero");
                 num2 = input.nextDouble();
 
                 if (num2 == 0){
@@ -82,7 +82,7 @@ public class main {
                 }
                 break;
             case 5:
-                System.out.println("Escriba el segundo numero");
+                System.out.println("Ingrese numero");
                 num2 = input.nextInt();
                 resultado = num1 % num2;
                 num1 = resultado;
